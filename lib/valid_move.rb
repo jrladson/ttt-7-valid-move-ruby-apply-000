@@ -3,6 +3,7 @@ def valid_move?(board, index)
     retrun TRUE
   else
     FALSE
+  end
 end
 
 def position_taken?(board, index)
