@@ -3,9 +3,9 @@
 def valid_move?(board, index)
   def position_taken?(array, ind)
     if array[ind] = " " || array[ind] = "" || array[ind] = NIL
-    return TRUE
-  else
     return FALSE
+  else
+    return TRUE
   end
 end
 
